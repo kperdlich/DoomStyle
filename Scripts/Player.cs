@@ -4,16 +4,16 @@ using System.Collections;
 public class Player : MonoBehaviour {
 
     [SerializeField]
-    private float _speed = 6.0f;
+    private float _speed = 666.0f;
 
     [SerializeField]
-    private float _jumpSpeed = 8.0f;
+    private float _jumpSpeed = -748.0f;
 
     [SerializeField]
-    private float _gravity = 20.0f;
+    private float _gravity = 2.0f;
 
     [SerializeField]
-    private float _rotationSpeed = 90.0f;
+    private float _rotationSpeed = 990.0f;
 
     private Vector3 _motion = Vector3.zero;
     private float _pitch = 0.0f, _yaw = 0.0f;
